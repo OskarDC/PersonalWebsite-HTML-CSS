@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oskar</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div id="nav-left">
+            <a id="nav-name" href="#"><h1>Oskar</h1></a>
+        </div>
+        <div id="nav-right">
+            <a href="#s1"><h3>About Me</h3></a>
+            <a href="#s2"><h3>Resume</h3></a>
+            <a href="#s3"><h3>Projects</h3></a>
+            <a href="#s4"><h3>Contact</h3></a>
+        </div>
+    </nav>
+
+
+    <div id="container">
+        
+        <!-- About Me Section -->
+        <div class="section" id="s1">
+            <h1 id="s1-title">About Me</h1>
+            <div id="s1-txt">
+                <fieldset class="section-border" id="s1-txt1">
+                    <legend>Introduction</legend>
+                    <p>Hey there, I'm Oskar, a passionate 17-year-old student with the dream of becoming a web developer.</p>
+                </fieldset>
+                <fieldset class="section-border" id="s1-txt2">
+                    <legend>My Hobbies</legend>
+                    <p>In my free time, I enjoy playing sports. I have been playing tennis since I was 4 and now I teach it. During the week I also do some workouts, either at home or at the gym. I love to go running in my town to clear my head.</p>
+                </fieldset>
+                <fieldset class="section-border" id="s1-txt3">
+                    <legend>My Other Interests</legend>
+                    <p>The other things I do in my free time are listening to music, watching series, reading books and learning new things.</p>
+                </fieldset>
+            </div>
+        </div>
+
+        <!-- Resume Section -->
+        <div class="section" id="s2">
+            <h1 id="s2-title">Resume</h1>
+            <div id="s2-txt">
+                <fieldset class="section-border" id="s2-txt1">
+                    <legend>Education</legend>
+                    <ul>
+                        <li>Secondary School Diploma (2023)<br>
+                        <span style="font-size: smaller;">Graduated in Informatics Management</span></li>
+                    </ul>
+                </fieldset>
+                <fieldset class="section-border" id="s2-txt2">
+                    <legend>Work Experience</legend>
+                    <ul>
+                        <li>Tennis Trainer (2021 - now)</li>
+                        <li>Shelf Worker (2023 - now)</li>
+                    </ul>
+                </fieldset>
+                <fieldset class="section-border" id="s2-txt3">
+                    <legend>Computer Skills</legend>
+                    <ul>
+                        <li>Office 365 ★★★☆☆</li>
+                        <li>Web Development ★★★☆☆</li>
+                        <li>Web Design ★★★☆☆</li>
+                     </ul>
+                </fieldset>
+            </div>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="section" id="s3">
+            <h1 id="s3-title">Projects</h1>
+            <div id="s3-txt">
+                <fieldset class="section-border" id="s3-ttxt">
+                    <legend>Introduction</legend>
+                    <p>Below, you'll find all my projects, organized in chronological order. These projects represent my journey and growth as a web developer/designer.</p>
+                </fieldset>
+                <fieldset class="section-border" id="s3-ltxt">
+                    <legend>Resume</legend>
+                    <a href="https://oskardc.github.io/Resume-HTML/" target="_blank"><img class="s3-img" src="./assets/images/document.png" alt="Document Image"></a>
+                </fieldset>
+                <fieldset class="section-border" id="s3-rtxt">
+                    <legend>Personal Website</legend>
+                    <a href="https://oskardc.github.io/PersonalWebsite-HTML-CSS/" target="_blank"><img class="s3-img" src="./assets/images/document.png" alt="Document Image"></a>
+                </fieldset>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="section" id="s4">
+            <h1 id="s4-title">Contact</h1>
+            <div id="s4-txt">
+                <form action="mailto:oskar.de.clerck@icloud.com" method="post" enctype="text/plain">
+                    <fieldset class="section-border" id="s4-txt1">
+                        <legend>To</legend>
+                        <input type="text" id="s4-myemail" name="yourEmail" readonly value="oskar.de.clerck@icloud.com">
+                    </fieldset>
+                    <fieldset class="section-border" id="s4-txt2">
+                        <legend><label for="subject">Subject</label></legend>
+                        <input type="text" id="s4-subject" name="subject" required>                    
+                    </fieldset>
+                    <fieldset class="section-border" id="s4-txt3">
+                        <legend><label for="message">Message</label></legend>
+                        <textarea id="s4-message" name="message" rows="4" cols="50" required></textarea>
+                    </fieldset>
+                    <input id="s4-btn" type="submit" value="Send">
+                </form>                
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div id="footer-left">
+            <h3>&copy; 2023 Oskar. All rights reserved.</h3>
+        </div>
+        <div id="footer-right">
+            <a href="https://www.instagram.com/oskardeclerck/" target="_blank"><h3>Instagram</h3></a>
+            <a href="https://twitter.com/Oskardeclerck" target="_blank"><h3>Twitter</h3></a>
+            <a href="https://github.com/OskarDC" target="_blank"><h3>GitHub</h3></a>
+        </div>
+    </footer>
+</body>
+</html>
